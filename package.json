@@ -1,0 +1,35 @@
+{
+  "name": "mqemitter-child-process",
+  "version": "0.0.1",
+  "description": "Share the same mqemitter between a hierarchy of child processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/index.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/mqemitter-child-process.git"
+  },
+  "keywords": [
+    "mqemitter",
+    "child",
+    "process",
+    "cluster"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/mqemitter-child-process/issues"
+  },
+  "homepage": "https://github.com/mcollina/mqemitter-child-process#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "pre-commit": "^1.1.3",
+    "standard": "^7.0.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "mqemitter": "^2.0.1",
+    "mqemitter-cs": "^1.0.0"
+  }
+}
