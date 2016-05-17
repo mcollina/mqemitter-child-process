@@ -36,7 +36,7 @@ function start (cb) {
   }
 
   fs.unlink(sockPath, function (err) {
-    if (err) {
+    if (err && err.code !== 'ENOENT') {
       return cb(err)
     }
 
