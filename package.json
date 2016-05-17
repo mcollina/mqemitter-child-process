@@ -1,6 +1,6 @@
 {
   "name": "mqemitter-child-process",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Share the same mqemitter between a hierarchy of child processes",
   "main": "index.js",
   "scripts": {
