@@ -73,7 +73,7 @@ Calls `unref()` on the main server
 
 -------------------------------------------------------
 <a name="child"></a>
-### mqemitterChildProcess.chil()
+### mqemitterChildProcess.child()
 
 Creates a [MQEmitter](https://github.com/mcollina/mqemitter) child that connects to the master.
 
